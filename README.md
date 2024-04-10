@@ -51,8 +51,8 @@ export default model<User>('user', userSchema);
 export default model<Course>('course', courseSchema);
 ```    
 <ins>Implement the following methods:</ins>
-* add a new user with (`fullname`, `email`, `password`)
-* add a new course with (`code`, `title`). Fill out the `created_by` property from the previous method (prefixed hard-coded values), and `location` with the following value `[-91.96731488465576, 41.018654231616374]`.
+* add a new user with (`fullname`, `email`, `password`, and `location` with the following value `[-91.96731488465576, 41.018654231616374]`)
+* add a new course with (`code`, `title`). Fill out the `created_by` property from the previous method (prefixed hard-coded values).
 * add a new lecture with (`title`, `description`).
 * add a new question with (`question`). 
 * use the aggregation pipeline to get all questions for a specific course and lecture. (with pagination).
